@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7302438822413147412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7302438822413147413}
+  - component: {fileID: 7302438822413147415}
+  - component: {fileID: 7302438822413147414}
+  m_Layer: 0
+  m_Name: MG5Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7302438822413147413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7302438822413147412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7302438822413147415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7302438822413147412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc8056edf5f76c469cd59bfe500d37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolList:
+  - prefab: {fileID: 8527766297700876979, guid: 2bc5af66d71e5484faad56f5da953fe8,
+      type: 3}
+    initialSize: 10
+  - prefab: {fileID: 8527766297700876979, guid: c1d5c4a4cd983a3429a9d82a9400e5d3,
+      type: 3}
+    initialSize: 3
+  - prefab: {fileID: 8527766297700876979, guid: 1c07710dfff398f4d849dcf5d39bb3df,
+      type: 3}
+    initialSize: 20
+--- !u!114 &7302438822413147414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7302438822413147412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44abeae1c18c8c74d99e4a51b40676f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origins:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  nodesList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  targetsAmount: 0
